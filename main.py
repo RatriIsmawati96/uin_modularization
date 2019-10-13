@@ -14,3 +14,14 @@ def hitung_kecepatan(jarak, waktu):
 kecepatan = hitung_kecepatan(1000, 5 * 60)
 kecepatan = hitung_kecepatan(3000, 70 * 60)
 
+def hitung_daya(usaha, waktu):
+    daya = usaha / waktu
+    print(f'usaha = {usaha * 2000}joule ditempuh dalam waktu = {waktu / 60}menit')
+    print(f'Sehingga daya = {daya} J/s')
+    return daya
+
+# usaha = 2000
+# waktu = 4 * 60
+daya = hitung_daya(2000, 4 * 60)
+daya = hitung_daya(1000, 60 * 60)
+
